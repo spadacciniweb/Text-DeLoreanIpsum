@@ -8,7 +8,7 @@ use Text::DeLoreanIpsumData qw/ getData /;
 
 use vars qw($VERSION);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 my $deLoreanIpsum;
 
@@ -173,15 +173,15 @@ The default constructor, C<new()> takes no arguments and returns a Text::DeLorea
 
 =item C<words( INTEGER )>
 
-Returns INTEGER fake TBBT words.
+Returns INTEGER words from fake BTTF text.
 
 =item C<sentences( INTEGER )>
 
-Returns INTEGER sentences in fake TBBT.
+Returns INTEGER sentences from fake BTTF text.
 
 =item C<paragraphs( INTEGER )>
 
-Returns INTEGER paragraphs of fake TBBT text.
+Returns INTEGER paragraphs from fake BTTF text.
 
 =back
 
